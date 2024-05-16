@@ -1,17 +1,20 @@
 var travels = 
 `city,latitude,longitude
-Toronto,43.6502,-79.4232
-Toronto,43.6732,-79.3632
+İstanbul,41.0082,28.9784
 Montreal,45.5019,-73.5674
+Toronto,43.6502,-79.4232
 Niagara,43.1362,-79.1077
+Toronto,43.6732,-79.3632
 Niagara,43.0942,-79.1297
+Jasper,52.8737,-118.0814
 Calgary,51.0447,-114.0719
 Banff,51.1784,-115.5708
-Jasper,52.8737,-118.0814
 Vancouver,49.2827,-123.1207
 Vancouver,49.2427,-122.9207
-İstanbul,41.0082,28.9784
-Vienna,48.2081,16.3713`;
+Vienna,48.2081,16.3713
+Zurich,47.3769,8.5417
+Zurich,45.4404,12.3160
+`;
 
 var stays = 
 `city,latitude,longitude
@@ -35,7 +38,7 @@ require([
       container: "viewDiv",
       map: map,
       zoom: 3,
-      center: [-84, 10]
+      center: [0, 20]
     });
     //Add satellite basemap toggle bottom right.
     var toggle = new BasemapToggle({
