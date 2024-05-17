@@ -13,14 +13,16 @@ Vancouver,49.2827,-123.1207
 Vancouver,49.2427,-122.9207
 Vienna,48.2081,16.3713
 Zurich,47.3769,8.5417
-Zurich,45.4404,12.3160
+Venice,45.4404,12.3160
+Florence,43.7700,11.2577
 `;
 
 var stays = 
 `city,latitude,longitude
 Boroujen,31.9684,51.2937
 Tehran,35.7219,51.3347
-Edmonton,53.5461,-113.4937`;
+Edmonton,53.5461,-113.4937
+`;
 
 require([
     "esri/Map",
