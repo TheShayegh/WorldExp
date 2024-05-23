@@ -1,6 +1,8 @@
 var travels = 
 `city,latitude,longitude
-İstanbul,41.0082,28.9784
+Isfahan,32.6539,51.6660
+Varamin,35.3252,51.6472
+Istanbul,41.0082,28.9784
 Montreal,45.5019,-73.5674
 Toronto,43.6502,-79.4232
 Niagara,43.1362,-79.1077
@@ -23,6 +25,8 @@ Florence,43.7700,11.2577
 Rome,41.8967,12.4822
 Vatican,41.9029,12.4534
 Munich,48.1351,11.5820
+Berlin,52.5200,13.4050
+Heidelberg,49.3988,8.6724
 `;
 
 var stays = 
