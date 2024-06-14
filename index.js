@@ -53,7 +53,7 @@ require([
       map: map,
       zoom: 3,
       center: [0, 20],
-      minZoom: 3
+      minZoom: 1
     });
     //Add satellite basemap toggle bottom right.
     var toggle = new BasemapToggle({
