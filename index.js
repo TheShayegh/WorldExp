@@ -53,7 +53,8 @@ require([
       map: map,
       zoom: 3,
       center: [0, 20],
-      minZoom: 1
+      minZoom: 3, // Set the minimum zoom level
+      maxZoom: 3 // Set the maximum zoom level to prevent scrolling out
     });
     //Add satellite basemap toggle bottom right.
     var toggle = new BasemapToggle({
