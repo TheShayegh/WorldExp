@@ -79,7 +79,7 @@ require([
     };
     var travelMarkerSymbol = {
         type: "simple-marker", // autocasts as new SimpleMarkerSymbol()
-        color: [196, 64, 64, .4], // Orange color
+        color: [196, 64, 64, .6], // Orange color
         size: "8px", // Larger size, adjust as needed
         outline: {
             color: [255, 255, 255], // White outline color
