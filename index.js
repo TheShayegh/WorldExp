@@ -110,6 +110,10 @@ Banff,51.1838,-115.59
 LakeLouise,51.43,-116.15
 LakeMinnewanka,51.2641,-115.3746
 Canmore,51.0884,-115.3479
+Victoria,48.4284,-123.3656
+Vancouver,49.2,-122.9
+StonyPlain,53.53518,-113.99290
+Calgary,51.,-114.
 `;
 
 var stays = 
