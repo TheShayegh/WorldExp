@@ -93,7 +93,6 @@ Florence,43.7700,11.2577
 Rome,41.8967,12.4822
 Vatican,41.9029,12.4534
 Munich,48.1351,11.5820
-Berlin,52.5200,13.4050
 Heidelberg,49.3988,8.6724
 LakeLouise,51.42,-116.17
 Wapta,51.1871,-116.5761
@@ -114,6 +113,15 @@ Victoria,48.4284,-123.3656
 Vancouver,49.2,-122.9
 StonyPlain,53.53518,-113.99290
 Calgary,51.,-114.
+Toronto,43.6402,-79.4032
+Niagara,43.062,-79.1377
+StAlbert,53.6539,-113.6293
+Istanbul,41.1082,28.9
+Munich,48.151,11.50
+Salzburg,47.8014,13.0448
+Vienna,48.2,16.413
+Amsterdam,52.3676,4.9041
+ZaanseSchans,52.4729,4.8219
 `;
 
 var stays = 
@@ -121,6 +129,7 @@ var stays =
 Boroujen,31.9684,51.2937
 Tehran,35.7219,51.3347
 Edmonton,53.5461,-113.4937
+Berlin,52.5200,13.4050
 `;
 var well_explored = 
 `city,latitude,longitude
