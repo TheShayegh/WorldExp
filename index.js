@@ -122,6 +122,8 @@ Salzburg,47.8014,13.0448
 Vienna,48.2,16.413
 Amsterdam,52.3676,4.9041
 ZaanseSchans,52.4729,4.8219
+Muiden,52.3287,5.0683
+Paris,48.8575,2.3514
 `;
 
 var stays = 
