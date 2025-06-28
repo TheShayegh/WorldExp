@@ -264,30 +264,6 @@ require([
     }
   });
 
-  const rows2 = stays.split('\n').slice(1); // skip header
-  rows2.forEach(row => {
-    const columns = row.split(',');
-    if (columns.length === 3) {
-      const city = columns[0];
-      const latitude = parseFloat(columns[1]);
-      const longitude = parseFloat(columns[2]);
-
-      // Create a point for each city
-      var point = {
-        type: "point",
-        longitude: longitude,
-        latitude: latitude
-      };
-
-      // Create a graphic for each city
-      var pointGraphic = new Graphic({
-        geometry: point,
-        symbol: createStayMarkerSymbol(12)
-      });
-      graphicsLayer.add(pointGraphic);
-    }
-  });
-
   const rows1 = travels.split('\n').slice(1); // skip header
   rows1.forEach(row => {
     const columns = row.split(',');
@@ -307,6 +283,30 @@ require([
       var pointGraphic = new Graphic({
         geometry: point,
         symbol: createTravelMarkerSymbol(8)
+      });
+      graphicsLayer.add(pointGraphic);
+    }
+  });
+
+  const rows2 = stays.split('\n').slice(1); // skip header
+  rows2.forEach(row => {
+    const columns = row.split(',');
+    if (columns.length === 3) {
+      const city = columns[0];
+      const latitude = parseFloat(columns[1]);
+      const longitude = parseFloat(columns[2]);
+
+      // Create a point for each city
+      var point = {
+        type: "point",
+        longitude: longitude,
+        latitude: latitude
+      };
+
+      // Create a graphic for each city
+      var pointGraphic = new Graphic({
+        geometry: point,
+        symbol: createStayMarkerSymbol(12)
       });
       graphicsLayer.add(pointGraphic);
     }
