@@ -226,12 +226,12 @@ require([
     var travelSize = 8 * (45000000**.3 / scale**.3);
 
     graphicsLayer.graphics.forEach(function(graphic) {
-      if (graphic.uid < well_explored.split(/\r\n|\r|\n/).length-2) { // well_explored color
+      if (graphic.uid < well_explored.split(/\r\n|\r|\n/).length-2) { // travelMarkerSymbol color
         graphic.symbol = createWellExploreMarkerSymbol(staySize);
-      } else if (graphic.uid < stays.split(/\r\n|\r|\n/).length+well_explored.split(/\r\n|\r|\n/).length-4) { // stayMarkerSymbol color
-        graphic.symbol = createStayMarkerSymbol(staySize);
-      } else  { // travelMarkerSymbol color
+      } else if (graphic.uid < travels.split(/\r\n|\r|\n/).length+well_explored.split(/\r\n|\r|\n/).length-4) { // stayMarkerSymbol color
         graphic.symbol = createTravelMarkerSymbol(travelSize);
+      } else  { // well_explored color
+        graphic.symbol = createStayMarkerSymbol(staySize);
       }
     });
   }
