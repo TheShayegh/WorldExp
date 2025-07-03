@@ -116,6 +116,7 @@ Calgary,51.,-114.
 Toronto,43.6402,-79.4032
 Niagara,43.062,-79.1377
 StAlbert,53.6539,-113.6293
+SherwoodPark,53.5413,-113.2958
 Istanbul,41.1082,28.9
 Munich,48.151,11.50
 Salzburg,47.8014,13.0448
