@@ -98,7 +98,7 @@ LakeLouise,51.42,-116.17
 Wapta,51.1871,-116.5761
 Elk,53.6029,-112.8638
 Elk,53.6029,-112.8038
-Jasper,52.83,-118.3
+Jasper,52.83,-118.2
 Bangkok,13.7563,100.5018
 Khorramabad,33.4647,48.3390
 Kermanshah,34.3277,47.0778
@@ -125,6 +125,17 @@ Amsterdam,52.3676,4.9041
 ZaanseSchans,52.4729,4.8219
 Muiden,52.3287,5.0683
 Paris,48.8575,2.3514
+SylvanLake,52.3066,-114.0973
+SebaBeach,53.5568,-114.7359
+ChipLake,53.6345,-115.3294
+Hinton,53.3991,-117.5794
+AthabascaFalls,52.6644,-117.8838
+Jasper,52.875,-118.15
+LakeLouise,51.42,-116.19
+Banff,51.18,-115.58
+LakeMinnewanka,51.2641,-115.36
+Calgary,51.04,-114.0
+RedDeer,52.2690,-113.8115
 `;
 
 var stays = 
@@ -184,7 +195,7 @@ require([
   function createStayMarkerSymbol(size) {
     return {
       type: "simple-marker", // autocasts as new SimpleMarkerSymbol()
-      color: [64, 176, 64, 0.7], // Green color
+      color: [64, 176, 64, 0.9], // Green color
       style: "square", // Specifies the marker is square-shaped
       size: size, // Size
       outline: {
@@ -196,7 +207,7 @@ require([
   function createWellExploreMarkerSymbol(size) {
     return {
       type: "simple-marker", // autocasts as new SimpleMarkerSymbol()
-      color: [196, 64, 64, 0.5], // Green color
+      color: [196, 64, 64, 0.85], // Green color
       style: "square", // Specifies the marker is square-shaped
       size: size, // Size
       outline: {
