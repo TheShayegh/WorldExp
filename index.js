@@ -69,7 +69,6 @@ Bisheh,33.3297414,48.8742401
 SheikhAlikhan,32.5042931,50.0657708
 Varamin,35.3252,51.6472
 Istanbul,41.0082,28.9784
-Montreal,45.5019,-73.5674
 Toronto,43.6502,-79.4232
 Niagara,43.1362,-79.1077
 Nowshahr,36.6494,51.4887
@@ -104,7 +103,6 @@ Khorramabad,33.4647,48.3390
 Kermanshah,34.3277,47.0778
 Sanandaj,35.3119,46.9964
 Baneh,35.9969,45.8853
-Montreal,45.5519,-73.5
 Banff,51.1838,-115.59
 LakeLouise,51.43,-116.15
 LakeMinnewanka,51.2641,-115.3746
@@ -136,6 +134,17 @@ Banff,51.18,-115.58
 LakeMinnewanka,51.2641,-115.36
 Calgary,51.04,-114.0
 RedDeer,52.2690,-113.8115
+Lloydminster,53.2780,-110.0061
+Saskatoon,52.1579,-106.6702
+Neepawa,50.2285,-99.4664
+Winnipeg,49.8954,-97.1385
+FalconBeach,49.6855,-95.3255
+WestHawkLake,49.7646,-95.1841
+ThunderBay,48.3809,-89.2477
+Kapuskasing,49.4181,-82.4300
+Haileybury,47.4463,-79.6355
+NorthBay,46.3091,-79.4608
+Ottawa,45.4201,-75.7003
 `;
 
 var stays = 
@@ -144,6 +153,7 @@ Boroujen,31.9684,51.2937
 Tehran,35.7219,51.3347
 Edmonton,53.5461,-113.4937
 Berlin,52.5200,13.4050
+Montreal,45.5019,-73.5674
 `;
 var well_explored = 
 `city,latitude,longitude
